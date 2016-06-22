@@ -48,6 +48,26 @@
         <!-- //Logo -->
 
         <!-- Primary menu -->
+        <nav class="main-nav" role="navigation">
+          <ul class="jetmenu" id="jetmenu">
+	    <li><a href="index.html" title="Yacht Charter">Yacht Charter</a>
+	      <div class="megamenu full-width">
+		<div class="wrap">
+		  <div class="row">
+		    <div class="col one-fourth">
+		      <a href="sailing-yatchs.html" title="Sailing yachts">
+			<img src="uploads/sailing-yatchs.jpg" alt="" />
+			<span>Sailing yachts</span>
+		      </a>
+		    </div>
+		  </div>
+		</div>
+	      </div>
+	    </li>
+	    <li><a href="http://www.ibizajetskibeach.com/" title="Jet sky">Jet sky</a>
+	    </li>
+          </ul>
+        </nav>
         <!-- //Primary menu -->
       </div>
     </header>
@@ -59,13 +79,42 @@
       <div class="hero">
 	<article>
 	  <h1 class="wow fadeInDown">Discover the sea with us ...</h1>
-	  <a href="index.html" title="Coming soon" class="anchor button white medium wow fadeInUp">Coming soon</a>
+	  <a href="index.html#lightSliderDeals" title="Go sail" class="anchor button white medium wow fadeInUp">Go sail</a>
 	</article>
       </div>
       <!-- //Hero -->
 
       <!-- Deals -->
       <section class="content boxed grid2 noarrow">
+	<ul id="lightSliderDeals">
+	  <li>
+	    <!-- Item -->
+	    <article class="full-width hentry">
+	      <figure class="one-half heightfix"><a href="yacht-single-aitana-lagoon-450.html"><img src="uploads/yacht-single-aitana-lagoon-450-yacht1.jpg" alt="deal" /></a></figure>
+	      <div class="one-half heightfix">
+		<header>Our Exclusive Deal</header>
+		  <div class="text">
+		    <h3><a href="yacht-single-aitana-lagoon-450.html">Lagoon 450 SporTop 'Aitana'</a></h3>
+		    <p>A floating lodge luxurious enough to have you feeling as if you are spending your holiday in Poseidon’s castle in the middle of paradise. Does this sound like something you might be interested in? Then do not bypass this remarkable 2016 Lagoon 450 SporTop!</p>
+
+		    <div class="details">
+		      <div>
+			<span class="icojam_location_1"></span>
+			<p>Base: San Antonio, Ibiza</p>
+		      </div>
+		      <div>
+			<span class="icojam_friends"></span>
+			<p>Berths: 8 (6+2)</p>
+		      </div>
+		      <div class="price">From 8300,00€</div>
+		      <div><a href="yacht-single-aitana-lagoon-450.html" title="Book now" class="button gold full medium solid">Get more info</a> </div>
+		    </div>
+		  </div>
+	      </div>
+	    </article>
+	    <!-- //Item -->
+	  </li>
+	</ul>
       </section>
       <!-- //Deals -->
 
@@ -119,15 +168,6 @@
     <script src="js/scripts.js"></script>
     <script>
       $(document).ready(function() {
-	$("#lightSliderPosts").lightSlider({
-	  item:1,
-	  keyPress:true,
-	  gallery:false,
-	  pager:false,
-	  prevHtml: 'PREVIOUS',
-	  nextHtml: 'NEXT'
-	});
-
 	$("#lightSliderDeals").lightSlider({
 	  item:1,
 	  keyPress:true,
